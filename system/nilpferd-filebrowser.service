@@ -1,8 +1,9 @@
 [Unit]
 Description=Filebrowser server for Nilpferd
+PartOf=nilpferd.target
+StopWhenUnneeded=true
 After=network.target
 Requires=network.target
-StopWhenUnneeded=true
 
 StartLimitBurst=4
 StartLimitIntervalSec=120
