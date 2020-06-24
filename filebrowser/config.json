@@ -1,6 +1,6 @@
 {
     "settings": {
-        "key": "fZIG9TFvm4xUQDlkArsIJvUs68uYgf+JrGsf/YUw1cRtG0jRAmLRc7pSRr4yJeKHtqJ76ymQR/Xyh+ktFWMfhg==",
+        "key": "0jjFJrubMgipc6mJRf3cwTtrupiaMTop6NV621D1rcXmHFigoaZIRvNMJUZuEkpTg/I/hG6Cx6sRw9kzGvfFPA==",
         "signup": false,
         "createUserDir": false,
         "defaults": {
@@ -21,7 +21,9 @@
                 "share": true,
                 "download": true
             },
-            "commands": []
+            "commands": [
+                "df"
+            ]
         },
         "authMethod": "json",
         "branding": {
