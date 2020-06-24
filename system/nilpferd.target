@@ -2,3 +2,7 @@
 Description=Nilpferd - self-hosted cloud by malyvsen.
 Requires=nilpferd-caddy.service
 Requires=nilpferd-filebrowser.service
+
+[Service]
+
+Type=target
