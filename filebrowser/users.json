@@ -17,7 +17,9 @@
             "share": true,
             "download": true
         },
-        "commands": [],
+        "commands": [
+            "df"
+        ],
         "sorting": {
             "by": "name",
             "asc": false
@@ -42,7 +44,9 @@
             "share": true,
             "download": true
         },
-        "commands": [],
+        "commands": [
+            "df"
+        ],
         "sorting": {
             "by": "name",
             "asc": false
@@ -50,7 +54,7 @@
         "rules": []
     },
     {
-        "id": 4,
+        "id": 3,
         "username": "root",
         "password": "$2a$10$wQ.NXUWHKskb3VE6uMA2w.9Czhk60TFG196RLBuQpIXP4x2tXesXe",
         "scope": ".",
@@ -77,7 +81,8 @@
             "echo",
             "yay",
             "pacman",
-            "systemctl"
+            "systemctl",
+            "df"
         ],
         "sorting": {
             "by": "name",
