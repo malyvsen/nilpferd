@@ -4,7 +4,7 @@ Requires=nilpferd-caddy.service
 Requires=nilpferd-filebrowser.service
 
 [Service]
-Type=simple
+Type=target
 User=malyvsen
 
 [Install]
