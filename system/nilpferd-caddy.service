@@ -2,9 +2,8 @@
 Description=Caddy server for Nilpferd.
 After=network.target
 Requires=network.target
-StopWhenUnneeded=yes
-Restart=always
-RestartSec=1
+StopWhenUnneeded=true
+
 StartLimitBurst=4
 StartLimitIntervalSec=120
 StartLimitAction=reboot
@@ -12,5 +11,9 @@ StartLimitAction=reboot
 [Service]
 Type=simple
 User=malyvsen
+
+Restart=always
+RestartSec=1
+
 WorkingDirectory=/srv/nilpferd
-ExecStart=/usr/bin/env caddy run
+ExecStart=caddy run
