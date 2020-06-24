@@ -2,7 +2,7 @@
 command=$1
 if [[ $command != import && $command != export ]]; then
     echo "Usage: update <import|export>"
-    return 1
+    exit
 fi
-filebrowser config $command "$(basename $BASH_SOURCE)/config.json" &&
-filebrowser users $command "$(basename $BASH_SOURCE)/users.json"
+filebrowser config $command "$(dirname $BASH_SOURCE)/config.json" &&
+filebrowser users $command "$(dirname $BASH_SOURCE)/users.json"
