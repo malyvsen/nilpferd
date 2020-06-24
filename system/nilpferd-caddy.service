@@ -1,5 +1,5 @@
 [Unit]
-Description=Caddy server for Nilpferd.
+Description=Caddy server for Nilpferd
 After=network.target
 Requires=network.target
 StopWhenUnneeded=true

@@ -1,5 +1,5 @@
 [Unit]
-Description=Filebrowser server for Nilpferd.
+Description=Filebrowser server for Nilpferd
 After=network.target
 Requires=network.target
 StopWhenUnneeded=true
