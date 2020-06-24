@@ -1,2 +1,5 @@
+# filebrowser database - config file used instead
+filebrowser.db
+
 # user files
 files/

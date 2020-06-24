@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "username": "malyvsen",
+        "password": "$2a$10$xB2cBqY/HGwiZ5GpaotKg.NNAsuLlR01H.oW3zFxDy1te3buXGisy",
+        "scope": "malyvsen",
+        "locale": "en",
+        "lockPassword": false,
+        "viewMode": "list",
+        "perm": {
+            "admin": false,
+            "execute": true,
+            "create": true,
+            "rename": true,
+            "modify": true,
+            "delete": true,
+            "share": true,
+            "download": true
+        },
+        "commands": [],
+        "sorting": {
+            "by": "name",
+            "asc": false
+        },
+        "rules": []
+    },
+    {
+        "id": 2,
+        "username": "aure",
+        "password": "$2a$10$9SSvL7L.22cJAOdD.35BAuE4dhZcUZUdKwQITDNxJT.7nBmQ6.LQW",
+        "scope": "aure",
+        "locale": "en",
+        "lockPassword": false,
+        "viewMode": "list",
+        "perm": {
+            "admin": false,
+            "execute": true,
+            "create": true,
+            "rename": true,
+            "modify": true,
+            "delete": true,
+            "share": true,
+            "download": true
+        },
+        "commands": [],
+        "sorting": {
+            "by": "name",
+            "asc": false
+        },
+        "rules": []
+    },
+    {
+        "id": 4,
+        "username": "root",
+        "password": "$2a$10$wQ.NXUWHKskb3VE6uMA2w.9Czhk60TFG196RLBuQpIXP4x2tXesXe",
+        "scope": ".",
+        "locale": "en",
+        "lockPassword": false,
+        "viewMode": "list",
+        "perm": {
+            "admin": true,
+            "execute": true,
+            "create": true,
+            "rename": true,
+            "modify": true,
+            "delete": true,
+            "share": true,
+            "download": true
+        },
+        "commands": [
+            "sudo",
+            "exa",
+            "ls",
+            "bat",
+            "cat",
+            "ping",
+            "echo",
+            "yay",
+            "pacman",
+            "systemctl"
+        ],
+        "sorting": {
+            "by": "name",
+            "asc": false
+        },
+        "rules": []
+    }
+]
