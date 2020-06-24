@@ -3,14 +3,14 @@ Description=Filebrowser server for Nilpferd.
 After=network.target
 Requires=network.target
 StopWhenUnneeded=yes
-
-Type=simple
 Restart=always
 RestartSec=1
 StartLimitBurst=4
 StartLimitIntervalSec=120
 StartLimitAction=reboot
 
+[Service]
+Type=simple
 User=malyvsen
 WorkingDirectory=/srv/nilpferd
 ExecStart=/usr/bin/env filebrowser
